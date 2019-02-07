@@ -1,0 +1,232 @@
+@charset "UHF-8";
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.header {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	padding: 15px 0;
+	z-index: 1000;
+}
+
+.header_item {
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+
+.header_bolt_icon {
+	font-size: 80px;
+	color: #535b5d;
+}
+
+.main {
+	background-color: #f2f2f2;
+}
+
+.header_icon {
+	color: #535b5d;
+	font-size: 43px
+}
+
+.header_btn {
+	font-size: 12px;
+	padding: 14px 12px;
+	background-color: #74cfae;
+	color: #fff;
+	outline: none;
+	border:0;
+	cursor: pointer;
+}
+
+.main_title_contents {
+	text-align: center;
+	padding: 250px 0;
+}
+
+.bolt_title {
+	color: #74cfae;
+	font-size: 90px;
+	font-weight: 700;
+	padding-top: 78px;
+	text-align: center;
+}
+
+
+.bolt_subTitle {
+	color: #c0c0c0;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.about {
+	background-color: #74cfae;
+	text-align: center;
+	position: relative;
+}
+
+.about_image_box {
+	display: inline-block;
+	float: left;
+	width: 40%;
+	margin-left: 40px;
+	padding-top: 50px;
+	font-size: 0;
+}
+
+.about_text_box {
+	position: absolute;
+	content: "";
+	top: 30%;
+	right: 10%;
+	color: #fff;
+	width: 50%;
+}
+
+.about_text_fs24 {
+	font-size: 24px;
+}
+
+.about_text_fs20 {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.imageTitle_fs24 {
+	font-size: 24px;
+	text-align: center;
+	margin: 60px auto 40px auto;
+}
+
+.image_field {
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.image_box {
+	margin-bottom: 80px;
+}
+
+.image_box:last-child {
+	margin-bottom: 0;
+}
+
+.image_content {
+	float: left;
+	opacity: 0.7;
+	transition: .3s;
+	margin-right: 100px;
+}
+
+.image_content:hover {
+	opacity: 1;
+}
+
+.image_content:last-child {
+	margin-right: 0;
+}
+
+.image_bottom_field {
+	padding: 90px 0 70px 0;
+	margin: 0 auto;
+}
+
+.image_bottom_content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.image_text {
+	float: left;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0 90px;
+	width: 50%;
+	text-align: center;
+}
+
+.email_me_btn {
+	background-color: #74cfae;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	border:0;
+	font-size: 12px;
+	padding: 14px 20px;
+	float: left;
+}
+
+.our-skills_bg {
+	background-color: #4e4e4e;
+	text-align: center;
+}
+
+.our-skills_title {
+	color: #fff;
+	padding: 70px 0 60px 0;
+	text-align: center;
+}
+
+
+.our-skills_images {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.our-skills_images:last-child {
+	padding: 10px 0 100px 0;
+}
+
+.our-skill_image {
+	margin-right: 180px;
+}
+
+.our-skill_image:last-child {
+	margin-right: 0;
+}
+
+.skill_name {
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	text-align: center;
+	width: 122px;
+}
+
+.social-icon_box {
+	padding: 200px 0;
+	width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+}
+
+.social_icon {
+	width: 185px;
+	color: #74cfae;
+	text-align: center;
+	padding: 10px 0;
+	cursor: pointer;
+	font-size: 60px;
+	transition: .3s;
+}
+
+.social_icon:hover {
+	background-color: #fff;
+}
+
+.footer {
+	background-color: #74cfae;
+}
+
+.footer_text {
+	color: #fff;
+	padding: 20px 250px 25px 0;
+	text-align: right;
+}
