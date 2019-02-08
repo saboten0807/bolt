@@ -1,9 +1,18 @@
 @charset "UHF-8";
 
+.body {
+	font-family: 'Lato', serif;
+}
+
 .clearfix:after {
 	display: block;
 	content: "";
 	clear: both;
+}
+
+.inner_content {
+	width: 1100px;
+	margin: 0 auto;
 }
 
 .header {
@@ -15,9 +24,12 @@
 }
 
 .header_item {
-	text-align: center;
+	text-align: left;
 	float: left;
 	width: 50%;
+}
+.header_item:last-child {
+	text-align: right;
 }
 
 .header_bolt_icon {
@@ -47,6 +59,8 @@
 .main_title_contents {
 	text-align: center;
 	padding: 250px 0;
+	width: 1100px;
+	margin: 0 auto;
 }
 
 .bolt_title {
@@ -62,11 +76,17 @@
 	color: #c0c0c0;
 	font-size: 30px;
 	margin-top: 20px;
+	font-family: 'Raleway', serif;
 }
 
-.about {
+.about_bg {
 	background-color: #74cfae;
 	text-align: center;
+}
+
+.about_inner_content {
+	width: 1100px;
+	margin: 0 auto;
 	position: relative;
 }
 
@@ -82,7 +102,7 @@
 .about_text_box {
 	position: absolute;
 	content: "";
-	top: 30%;
+	top: 20%;
 	right: 10%;
 	color: #fff;
 	width: 50%;
@@ -90,6 +110,7 @@
 
 .about_text_fs24 {
 	font-size: 24px;
+	font-family: 'Raleway', serif;
 }
 
 .about_text_fs20 {
@@ -102,34 +123,42 @@
 	font-size: 24px;
 	text-align: center;
 	margin: 60px auto 40px auto;
+	font-family: 'Raleway', serif;
 }
 
-.image_field {
-	margin: 0 auto;
-	width: 1100px;
-}
 
 .image_box {
-	margin-bottom: 80px;
+	font-size: 0;
 }
 
-.image_box:last-child {
-	margin-bottom: 0;
-}
 
-.image_content {
+.image_content{
 	float: left;
 	opacity: 0.7;
 	transition: .3s;
-	margin-right: 100px;
+	cursor: pointer;
+	margin: 0 100px 80px 0;
 }
+
+.image_content:nth-child(3),:nth-child(6) {
+	margin-right: 0;
+}
+.image_content:nth-child(n+4){
+	margin-bottom: 0;
+}
+
+
 
 .image_content:hover {
 	opacity: 1;
 }
 
-.image_content:last-child {
-	margin-right: 0;
+.image_content:nth-child(3,6) {
+	padding-right: 0;
+}
+
+.image_content:nth-child(4,5,6) {
+	padding-bottom: 0;
 }
 
 .image_bottom_field {
@@ -147,8 +176,9 @@
 	font-size: 12px;
 	line-height: 20px;
 	margin: 0 90px;
-	width: 50%;
+	width: 43%;
 	text-align: center;
+	word-break: break-word;
 }
 
 .email_me_btn {
@@ -171,6 +201,8 @@
 	color: #fff;
 	padding: 70px 0 60px 0;
 	text-align: center;
+	font-size: 24px;
+	font-family: 'Raleway', serif;
 }
 
 
@@ -198,6 +230,8 @@
 	padding: 200px 0;
 	text-align: center;
 	font-size: 0;
+	width: 1100px;
+	margin: 0 auto;
 }
 
 .social_icon {
@@ -220,6 +254,8 @@
 
 .footer_text {
 	color: #fff;
-	padding: 20px 250px 25px 0;
+	padding: 20px 0 25px 0;
 	text-align: right;
+	width: 1100px;
+	margin: 0 auto;
 }
