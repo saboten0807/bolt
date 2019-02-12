@@ -65,8 +65,6 @@ body {
 .main_title_contents {
 	text-align: center;
 	padding: 250px 0;
-	width: 1100px;
-	margin: 0 auto;
 }
 
 .bolt_title {
@@ -114,8 +112,7 @@ body {
 }
 
 .image_content_box {
-	margin-top: 90px;
-	margin-bottom: 70px;s
+	padding: 90px 0 70px 0;
 }
 
 .imageTitle_fs24 {
@@ -178,6 +175,7 @@ body {
 	padding: 14px 20px;
 	float: left;
 	transition: .3s;
+	text-decoration: none;
 }
 
 .email_me_btn:hover {
@@ -224,28 +222,30 @@ body {
 	font-size: 0;
 }
 
-.social_icon {
-	width: 185px;
-	color: #74cfae;
-	text-align: center;
-	padding: 10px 0;
+.social-icon_box li {
+	display: inline-block;
 	font-size: 60px;
+	padding: 10px 0;
+	text-align: center;
 	transition: .3s;
+	width: 185px;
+}
+
+.social_icon {
+	color: #74cfae;
 	text-decoration: none;
 }
 
-.social_icon:hover {
+.social-icon_box li:hover {
 	background-color: #fff;
 }
 
 .footer {
 	background-color: #74cfae;
+	padding: 20px 0 25px 0 ;
 }
 
 .footer_text {
 	color: #fff;
-	padding: 20px 0 25px 0;
 	text-align: right;
-	width: 1100px;
-	margin: 0 auto;
 }
