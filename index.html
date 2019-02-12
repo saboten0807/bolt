@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="bolt,bootstrap,portfolio">
     <title>Bolt - Free Bootstrap 3 Theme</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -14,33 +15,31 @@
   <body class="body">
     <header class="header">
       <div class="inner_content clearfix">
-        <div class="header_item"><i class="fa fa-bolt fa-3x header_icon"></i></div>
-        <div class="header_item"><button class="header_btn">Contact</button></div>
+        <div class="header_left"><i class="fa fa-bolt fa-3x header_icon"></i></div>
+        <div class="header_right"><a class="header_btn" href="" title="Content">Content</a></div>
       </div>
     </header>
     <main class="main">
       <div class="main_title_contents">
         <h1 class="bolt_title">Bolt Theme</h1>
-        <div class="bolt_subTitle">FREE BOOTSTRAP THEMES</div>
+        <p class="bolt_subTitle">FREE BOOTSTRAP THEMES</p>
       </div>
-      <div class="about_bg">
-        <div class="about_inner_content clearfix">
+      <section class="about_bg">
+        <div class="inner_content clearfix">
           <div class="about_image_box">
             <img class="about_iphone_image" src="./img/iphone.png" alt="">
           </div>
-          <article class="about_text_box">
+          <div class="about_text_box">
             <h2 class="about_text_fs24">
               WHAT WE CAN DO?
             </h2>
-            <article>
               <p class="about_text_fs20">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>
-            </article>
-          </article>
+          </div>
         </div>
-      </div>
-      <div class="inner_content">
+      </section>
+      <article class="inner_content image_content_box">
         <h2 class="imageTitle_fs24">
           OUR LATEST WORK
         </h2>
@@ -60,30 +59,38 @@
             <button class="email_me_btn">Email Me!</button>
           </div>
         </div>
-      </div>
-      <div class="our-skills_bg">
-        <figure class="inner_content">
+      </article>
+      <section class="our-skills_bg">
+        <div class="inner_content clearfix">
           <h2 class="our-skills_title">OUR SKILLS</h2>
-          <div class="our-skills_images">
-            <img class="our-skill_image" src="./img/circle_01.png" alt="">
-            <img class="our-skill_image" src="./img/circle_02.png" alt="">
-            <img class="our-skill_image" src="./img/circle_03.png" alt="">
-            <img class="our-skill_image" src="./img/circle_04.png" alt="">
+          <div class="our-skill_box">
+            <div class="our-skill_images">
+              <img class="our-skill_image" src="./img/circle_01.png" alt="">
+              <div class="our-skill_image skill_name">javaScript</div>
+            </div>
+              <div class="our-skill_images">
+              <img class="our-skill_image" src="./img/circle_02.png" alt="">
+              <div class="our-skill_image skill_name">Bootstrap</div>
+            </div>
+              <div class="our-skill_images">
+              <img class="our-skill_image" src="./img/circle_03.png" alt="">
+              <div class="our-skill_image skill_name">WordPress</div>
+            </div>
+              <div class="our-skill_images">
+              <img class="our-skill_image" src="./img/circle_04.png" alt="">
+              <div class="our-skill_image skill_name">Photoshop</div>
+            </div>
           </div>
-          <div class="our-skills_images">
-            <figcaption class="our-skill_image skill_name">javaScript</figcaption>
-            <figcaption class="our-skill_image skill_name">Bootstrap</figcaption>
-            <figcaption class="our-skill_image skill_name">WordPress</figcaption>
-            <figcaption class="our-skill_image skill_name">Photoshop</figcaption>
-          </div>
-        </figure>
-      </div>
-      <div class="social-icon_box">
-        <i class="fa fa-facebook social_icon"></i>
-        <i class="fa fa-dribbble social_icon"></i>
-        <i class="fa fa-twitter social_icon"></i>
-        <i class="fa fa-envelope social_icon"></i>
-      </div>
+        </div>
+      </section>
+      <nav class="inner_content social-icon_box">
+        <ul>
+          <a class="fa fa-facebook social_icon" href=""></a>
+          <a class="fa fa-dribbble social_icon" href=""></a>
+          <a class="fa fa-twitter social_icon" href=""></a>
+          <a class="fa fa-envelope social_icon" href=""></a>
+        </ul>
+      </nav>
     </main>
     <footer class="footer">
       <p class="footer_text">
