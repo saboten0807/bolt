@@ -231,13 +231,13 @@ body {
 
 .social-icon_box li {
 	display: inline-block;
+	transition: .3s;
 }
 
 .social-icon_box li a {
 	font-size: 60px;
 	padding: 10px 0;
 	text-align: center;
-	transition: .3s;
 	width: 185px;
 	color: #74cfae;
 	text-decoration: none;
@@ -281,9 +281,6 @@ body {
 		margin: 0 auto;
 		float: none;
 		width: 910px;
-	}
-
-	.about_text_fs24 {
 		margin-top: 20px;
 	}
 
@@ -293,6 +290,11 @@ body {
 
 	.image_content_box {
 		padding: 60px 0 70px 0;
+	}
+
+	.image_box {
+		width: 300px;
+		margin: 0 auto;
 	}
 
 	.image_content {
@@ -306,9 +308,14 @@ body {
 		margin-bottom: 80px;
 	}
 
+	.image_content:last-child {
+		margin-bottom: 0;
+	}
+
 	.image_bottom_content {
 		width: 100%;
 		text-align: center;
+		margin-top: 80px;
 	}
 
 	.image_text_box {
@@ -323,11 +330,11 @@ body {
 
 	.email_btn_box {
 		float: none;
+		margin-top: 40px;
 	}
 
 	.email_me_btn {
 		display: inline-flex;
-		margin-top: 40px;
 	}
 
 	.our-skill_images {
@@ -379,6 +386,8 @@ body {
 
 	.image_box {
 		text-align: center;
+		width: 300px;
+		margin: 0 auto;
 	}
 
 
@@ -386,8 +395,16 @@ body {
 		margin-bottom: 80px;
 	}
 
+	.image_content:last-child {
+		margin-bottom: 0;
+	}
+
 	.image_bottom_content {
-		margin-top: 0;
+		margin-top: 80px;
+	}
+
+	.bottom_content {
+		width: 80%;
 	}
 
 	.image_text_box {
