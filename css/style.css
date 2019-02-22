@@ -317,10 +317,14 @@ body {
 		margin-top: 80px;
 	}
 
+	.bottom_content {
+		width: 100%;
+	}
+
 	.image_text_box {
 		float: none;
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 	}
 
 	.image_text {
